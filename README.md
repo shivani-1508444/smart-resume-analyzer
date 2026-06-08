@@ -1,70 +1,199 @@
-# Getting Started with Create React App
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🧠 Smart Resume Analyzer
 
-## Available Scripts
+### AI-Powered Resume Analysis & ATS Scoring — Right in Your Browser
 
-In the project directory, you can run:
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Framer Motion](https://img.shields.io/badge/Framer_Motion-12-0055FF?style=for-the-badge&logo=framer&logoColor=white)](https://www.framer.com/motion/)
+[![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
-### `npm start`
+<br/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+> **Upload your resume. Get instant ATS scores, skill gap analysis, and actionable career tips — no backend, no server, 100% private.**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<br/>
 
-### `npm test`
+[🚀 Live Demo](#) &nbsp;|&nbsp; [📖 Features](#-features) &nbsp;|&nbsp; [⚙️ Installation](#️-installation) &nbsp;|&nbsp; [🛠️ Tech Stack](#️-tech-stack)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+</div>
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ✨ Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| Feature | Description |
+|---|---|
+| 🔐 **Authentication** | Secure login & registration using `localStorage` |
+| 📄 **PDF Upload** | Drag & drop or click-to-upload PDF resume support |
+| 📊 **ATS Score** | Instant Applicant Tracking System compatibility score |
+| 🔍 **Skill Gap Analysis** | Identifies missing skills compared to industry standards |
+| 💡 **Career Suggestions** | Personalized, actionable improvement recommendations |
+| 🎨 **Premium UI** | Glassmorphism design with smooth Framer Motion animations |
+| 📱 **Fully Responsive** | Works beautifully on desktop, tablet, and mobile |
+| 🔒 **100% Private** | All analysis runs client-side — your data never leaves your browser |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🖼️ Preview
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<div align="center">
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+| Home Page | Analyzer |
+|---|---|
+| ![Home](https://via.placeholder.com/500x300/0f0c29/ffffff?text=🏠+Home+Page) | ![Analyzer](https://via.placeholder.com/500x300/302b63/ffffff?text=📊+Analyzer+Page) |
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+</div>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🛠️ Tech Stack
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+Frontend:
+├── ⚛️  React 19           — UI library
+├── 🛣️  React Router DOM 7  — Client-side routing
+├── 🎞️  Framer Motion 12   — Animations & transitions
+├── 🖼️  Lucide React        — Icon library
+├── 📄  PDF.js (pdfjs-dist) — Client-side PDF parsing
+├── 📸  html2canvas          — Screenshot/export utility
+└── 📑  jsPDF               — PDF report generation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Deployment:
+└── 🚀  Vercel              — Hosting & CI/CD
+```
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## ⚙️ Installation
 
-### Analyzing the Bundle Size
+Follow these steps to run the project locally:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Prerequisites
+- [Node.js](https://nodejs.org/) v18+ installed
+- [Git](https://git-scm.com/) installed
 
-### Making a Progressive Web App
+### Steps
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+# 1. Clone the repository
+git clone https://github.com/shivani-1508444/smart-resume-analyzer.git
 
-### Advanced Configuration
+# 2. Navigate to the project folder
+cd smart-resume-analyzer
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# 3. Install dependencies
+npm install
 
-### Deployment
+# 4. Start the development server
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+The app will open at **`http://localhost:3000`** 🎉
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📁 Project Structure
+
+```
+smart-resume-analyzer/
+│
+├── public/                  # Static assets & index.html
+│
+├── src/
+│   ├── components/
+│   │   └── Navbar.jsx       # Navigation bar component
+│   │
+│   ├── pages/
+│   │   ├── Home.jsx         # Landing page
+│   │   ├── Login.jsx        # Login page
+│   │   ├── Register.jsx     # Registration page
+│   │   └── Analyzer.jsx     # Core resume analysis page
+│   │
+│   ├── utils/               # Helper functions & analysis logic
+│   ├── App.js               # Root component & routing
+│   ├── App.css              # App-level styles
+│   └── index.css            # Global styles & design tokens
+│
+├── package.json
+└── README.md
+```
+
+---
+
+## 🔐 Authentication Flow
+
+This project uses a **frontend-only authentication** system powered by `localStorage`:
+
+```
+Register → Credentials saved to localStorage
+    ↓
+Login → Credentials verified from localStorage
+    ↓
+Protected Route → Analyzer page accessible only after login
+    ↓
+Logout → Session cleared from localStorage
+```
+
+> ⚠️ This is a **demo/portfolio project**. For production use, replace `localStorage` auth with a proper backend authentication system.
+
+---
+
+## 📊 How the Analyzer Works
+
+1. **Upload** your resume as a PDF file
+2. **PDF.js** extracts the raw text content from the file client-side
+3. The **analysis engine** scans for keywords, skills, formatting patterns, and ATS signals
+4. Results are displayed with:
+   - 🎯 **ATS Compatibility Score** (0–100)
+   - 🧩 **Skill Gap Report** — skills found vs. skills missing
+   - 📝 **Improvement Suggestions** — targeted career advice
+5. Optionally **export** your results as a PDF report
+
+---
+
+## 🚀 Deployment
+
+This project is deployed on **Vercel** with automatic CI/CD from GitHub.
+
+To deploy your own copy:
+
+```bash
+# Install Vercel CLI
+npm install -g vercel
+
+# Deploy
+vercel --prod
+```
+
+Or connect your GitHub repository directly at [vercel.com](https://vercel.com) for automatic deployments on every push.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a **Pull Request**
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+
+---
+
+<div align="center">
+
+Made with ❤️ by **Shivani**
+
+⭐ **Star this repo if you found it helpful!** ⭐
+
+</div>
